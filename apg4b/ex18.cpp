@@ -2,15 +2,13 @@
 #include <vector>
 using namespace std;
 
-int main()
-{
+int main() {
   int n, m;
   cin >> n >> m;
 
   vector<vector<char>> table(n, vector<char>(n, '-'));
 
-  for (int i = 0; i < m; ++i)
-  {
+  for (int i = 0; i < m; ++i) {
     int a, b;
     cin >> a >> b;
 
@@ -18,14 +16,11 @@ int main()
     table.at(b - 1).at(a - 1) = 'x';
   }
 
-  for (vector<char> row : table)
-  {
-    for (int i = 0; i < row.size(); ++i)
-    {
+  for (vector<char> row : table) {
+    for (int i = 0; i < row.size(); ++i) {
       cout << row.at(i);
 
-      if (i != row.size() - 1)
-      {
+      if (i != row.size() - 1) {
         cout << ' ';
       }
     }

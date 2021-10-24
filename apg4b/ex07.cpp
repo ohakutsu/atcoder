@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
   // 変数a,b,cにtrueまたはfalseを代入してAtCoderと出力されるようにする。
   bool a = true;
   bool b = false;
@@ -10,34 +9,23 @@ int main()
 
   // ここから先は変更しないこと
 
-  if (a)
-  {
+  if (a) {
     cout << "At";
-  }
-  else
-  {
+  } else {
     cout << "Yo";
   }
 
-  if (!a && b)
-  {
+  if (!a && b) {
     cout << "Bo";
-  }
-  else if (!b || c)
-  {
+  } else if (!b || c) {
     cout << "Co";
   }
 
-  if (a && b && c)
-  {
+  if (a && b && c) {
     cout << "foo!";
-  }
-  else if (true && false)
-  {
+  } else if (true && false) {
     cout << "yeah!";
-  }
-  else if (!a || c)
-  {
+  } else if (!a || c) {
     cout << "der";
   }
 

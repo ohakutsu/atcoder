@@ -1,22 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
   int a, b;
   cin >> a >> b;
 
   cout << "A:";
-  while (a > 0)
-  {
+  while (a > 0) {
     cout << ']';
     a--;
   }
   cout << endl;
 
   cout << "B:";
-  while (b > 0)
-  {
+  while (b > 0) {
     cout << ']';
     b--;
   }

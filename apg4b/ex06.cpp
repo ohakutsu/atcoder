@@ -2,37 +2,26 @@
 #include <string>
 using namespace std;
 
-int main()
-{
+int main() {
   int a, b;
   string op;
   cin >> a >> op >> b;
 
   int result;
 
-  if (op == "+")
-  {
+  if (op == "+") {
     result = a + b;
-  }
-  else if (op == "-")
-  {
+  } else if (op == "-") {
     result = a - b;
-  }
-  else if (op == "*")
-  {
+  } else if (op == "*") {
     result = a * b;
-  }
-  else if (op == "/")
-  {
-    if (b == 0)
-    {
+  } else if (op == "/") {
+    if (b == 0) {
       cout << "error" << endl;
       return 0;
     }
     result = a / b;
-  }
-  else
-  {
+  } else {
     cout << "error" << endl;
     return 0;
   }
