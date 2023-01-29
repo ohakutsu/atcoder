@@ -45,3 +45,5 @@
 
 *.txt
 .vscode
+
+/tmp
